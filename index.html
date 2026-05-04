@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Duplicate Photo Remover</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 8px;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111827;
+    margin: 36px 0 12px;
+    padding-top: 12px;
+  }
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #111827;
+    margin: 24px 0 8px;
+  }
+  p, li { font-size: 16px; }
+  .meta {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .summary {
+    background: #f3f4f6;
+    border-left: 4px solid #8B5CF6;
+    padding: 16px 20px;
+    border-radius: 4px;
+    margin: 24px 0;
+  }
+  .summary strong { color: #111827; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: #8B5CF6; }
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    color: #6b7280;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta"><strong>Duplicate Photo Remover</strong> &nbsp;·&nbsp; Last updated: May 5, 2026</p>
+
+<div class="summary">
+  <p><strong>The short version:</strong> Duplicate Photo Remover does not collect, store, or transmit any personal data. Everything happens on your device. We don't have servers, we don't track you, and we don't share anything with anyone.</p>
+</div>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy describes how Duplicate Photo Remover ("the App", "we", "our", or "us") handles information when you use our iOS application. This policy applies to all users of the App.</p>
+
+<h2>2. Information We Do Not Collect</h2>
+<p>We want to be very clear: <strong>we do not collect any personal data from you.</strong> Specifically:</p>
+<ul>
+  <li>We do not require you to create an account</li>
+  <li>We do not collect your name, email address, phone number, or any other identifier</li>
+  <li>We do not use analytics services like Google Analytics, Firebase Analytics, Mixpanel, or any tracking SDK</li>
+  <li>We do not include advertising networks or ad SDKs</li>
+  <li>We do not collect device identifiers (IDFA, IDFV) for tracking purposes</li>
+  <li>We do not collect crash logs, usage statistics, or behavioral data</li>
+  <li>We do not have any servers — there is nowhere for us to send data to</li>
+</ul>
+
+<h2>3. How the App Works</h2>
+<p>Duplicate Photo Remover scans your iPhone's Photos library locally on your device to identify duplicate photos. This means:</p>
+<ul>
+  <li>All scanning, hashing, and analysis happens entirely on your iPhone</li>
+  <li>Your photos are never uploaded to any server</li>
+  <li>Your photos never leave your device</li>
+  <li>The App works offline; no internet connection is required</li>
+</ul>
+
+<h2>4. Photos Library Access</h2>
+<p>The App requests access to your Photos library through Apple's standard iOS permissions system. This access is required for the App to function — without it, we cannot scan for duplicates.</p>
+
+<h3>What we use Photos access for:</h3>
+<ul>
+  <li>Reading photo metadata (dimensions, creation date, file size) to identify potential duplicates</li>
+  <li>Generating content fingerprints (cryptographic hashes) of photos locally on your device to detect identical images</li>
+  <li>Displaying photo thumbnails within the App so you can review before deleting</li>
+  <li>Deleting photos that you explicitly select for removal</li>
+</ul>
+
+<h3>What we do NOT do with your photos:</h3>
+<ul>
+  <li>We do not upload your photos anywhere</li>
+  <li>We do not analyze your photos using AI, machine learning, or facial recognition</li>
+  <li>We do not share your photos with anyone</li>
+  <li>We do not retain copies of your photos within the App</li>
+</ul>
+
+<h2>5. Photo Deletion</h2>
+<p>When you delete photos using the App, they are moved to the "Recently Deleted" album in iOS. They remain there for 30 days and can be recovered during that period directly from the iOS Photos app. After 30 days, iOS permanently deletes them. We do not control or have access to this process — it is handled entirely by Apple's iOS.</p>
+
+<h2>6. Limited Photos Access</h2>
+<p>If you grant only "Limited Access" instead of "Full Access" to your Photos library, the App will only be able to scan the specific photos you have selected. You can change this permission at any time in iOS Settings → Privacy &amp; Security → Photos → Duplicate Photo Remover.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>The App does not knowingly collect any information from children under the age of 13. Since we do not collect personal information from any user, this naturally extends to children.</p>
+
+<h2>8. Third-Party Services</h2>
+<p>The App does not integrate with any third-party services, SDKs, or analytics platforms. We use only Apple's built-in iOS frameworks (PhotoKit, SwiftUI, CryptoKit) which are part of iOS itself.</p>
+
+<h2>9. Data Storage</h2>
+<p>The App stores minimal data locally on your device using standard iOS UserDefaults:</p>
+<ul>
+  <li>Whether you have completed the onboarding screens (a simple yes/no flag)</li>
+</ul>
+<p>This data never leaves your device and is automatically removed if you uninstall the App.</p>
+
+<h2>10. Security</h2>
+<p>Because we do not collect or transmit any data, there is no risk of your information being intercepted, breached, or exposed by us. Your photos remain protected by your iPhone's standard security features (passcode, Face ID, Touch ID).</p>
+
+<h2>11. Your Rights</h2>
+<p>Since we do not collect any personal data, traditional data subject rights (access, correction, deletion, portability) do not apply because there is no data for us to access, correct, delete, or transfer.</p>
+
+<h2>12. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The "Last updated" date at the top of this page reflects the most recent revision. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+
+<h2>13. Compliance</h2>
+<p>This App and its data practices comply with:</p>
+<ul>
+  <li>Apple App Store Review Guidelines</li>
+  <li>EU General Data Protection Regulation (GDPR) — by virtue of not collecting any personal data</li>
+  <li>California Consumer Privacy Act (CCPA) — same reason</li>
+  <li>India's Digital Personal Data Protection Act, 2023 — same reason</li>
+  <li>Children's Online Privacy Protection Act (COPPA)</li>
+</ul>
+
+<h2>14. Contact Us</h2>
+<p>If you have any questions about this Privacy Policy or the App, please contact us:</p>
+<ul>
+  <li><strong>Developer:</strong> Sargam Singh</li>
+  <li><strong>Location:</strong> Hyderabad, Telangana, India</li>
+  <li><strong>Email:</strong> <a href="mailto:sargamsingh@icloud.com">sargamsingh@icloud.com</a></li>
+</ul>
+
+<footer>
+  <p>© 2026 Sargam Singh. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
